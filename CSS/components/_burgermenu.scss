@@ -9,16 +9,20 @@
 }
 .lineone{
     width:70%;
-    height: 1px;
+    height: 2px;
     background: white;
 }
 .linetwo{
     width:70%;
-    height: 1px;
+    height: 2px;
     background: white;
 }
 .linethree{
     width:35%;
-    height: 1px;
+    height: 2px;
     background: white;
+    transition: all .3s ease-in-out;
+}
+.burgermenu:hover .linethree{
+    width: 70%;
 }
