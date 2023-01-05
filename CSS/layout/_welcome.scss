@@ -9,11 +9,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: 80%;
+
 
 }
 .surfer{
-    height: 450px;
-    width: 600px;
+    height: 600px;
+    width: 100%;
     background: url(../../img/surfer-overlay.jpg)no-repeat center/cover;
     
 }
@@ -21,9 +23,27 @@
     color: blue;
     background: white;
     padding: 40px;
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
    
+}
+
+.residences{
+    padding: 40px;
+    .btn{
+        width: 170px;
+        padding: 20px;
+    }
+
+}
+
+.imgresidences{
+    background: url(../../img/Makena_Andy-Carlson.jpg) no-repeat center/cover;
+    height: 350px;
+    margin-bottom: 40px;
+}
+.textresidences{
+    padding: 30px;
 }

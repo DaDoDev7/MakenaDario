@@ -1,0 +1,52 @@
+.footerslide{
+    color:white;
+    background:#213375 ;
+    height: 700px;
+    a{
+        color: white;
+    }
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    height: 100%;
+    justify-content: space-between;
+    p{
+        color: rgba(255, 255, 255, 0.663);
+    }
+}
+.contactleft{
+    display: flex;
+    flex-direction: column;
+    h3{
+        font-size: 25px;
+    }
+    a{
+        line-height: 25px;
+    }
+    
+}
+.contactright{
+    display: flex;
+}
+.columnleft,.columnright{
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+    line-height: 30px;
+}
+.columnleft{
+    padding-right: 50px;
+}
+.columnright{
+    font-size: 13px;
+}
+.logotransparent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    img{
+       filter:sepia(100%);
+    }
+}
