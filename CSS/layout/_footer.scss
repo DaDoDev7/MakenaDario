@@ -37,7 +37,8 @@
     line-height: 30px;
 }
 .columnleft{
-    padding-right: 50px;
+    padding-right: 90px;
+    line-height: 40px;
 }
 .columnright{
     font-size: 13px;
@@ -48,5 +49,25 @@
     align-items: flex-start;
     img{
        filter:sepia(100%);
+    }
+}
+.footerfixe{
+    padding: 40px;
+    background-attachment: fixed;
+    background: #1b2a61;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.55);
+    text-transform: uppercase;
+    font-size: 24px;
+    h6{
+        margin:0;
+    }
+    p{
+        color: rgba(255, 255, 255, 0.55);
+        text-transform: initial;
+
     }
 }
